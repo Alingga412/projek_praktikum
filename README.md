@@ -31,7 +31,7 @@ print('Y')
 print('Z')
 ```
 
-Penjelasannya
+Penjelasan
 
 * Penggunaan `end` digunakan untuk memberi karakter diakhir baris dipisah oleh tanda koma (,)
 ```
@@ -65,14 +65,35 @@ Maka hasilnya akan seperti berikut
 > Separator  `sep=''` adalah syntax yang digunakan untuk memberi pemisah pada baris yang dipisah oleh tanda koma (,)
 
 ```
-# pengggunaan separtor
-w, d, y, z = 10, 15, 20, 25
-print(w, d, y, z)
-print(w, d, y, z, sep='+')
-print(w, d, y, z, sep='x')
-print(w, d, y, z, sep=':')
-print(w, d, y, z, sep='-----')
-print(d, z, sep='=')
+# penggunaan separtor
+w, x, y, z = 10, 15, 20, 25
+print(w, x, y, z)
+print(w, x, y, z, sep='+')
+print(w, x, y, z, sep='')
+print(w, x, y, z, sep=':')
+print(w, x, y, z, sep='-----')
+```
+Penjelasan
+
+* Pendeklarasian variable
+```
+w, x, y, z = 10, 15, 20, 25
 ```
 
-### Pertemuan ke 6 - Lab 2
+* Pemanggilan variable tanpa separator
+
+```
+print(w, x, y, z)
+```
+* Pemanggilan variable dengan separator
+```
+print(w, x, y, z, sep='+')
+print(w, x, y, z, sep='')
+print(w, x, y, z, sep=':')
+print(w, x, y, z, sep='-----')
+```
+Maka hasilnya akan seperti berikut
+
+![output2](https://github.com/RezaRiyaldi/projek_praktikum/blob/master/gambar/gambar%204.PNG)
+
+### Pertemuan ke 6 - Lab 1/2
