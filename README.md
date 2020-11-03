@@ -13,5 +13,7 @@
 | 2. | Pertemuan ke 6 - Lab 2 | [lihat](https://github.com/RezaRiyaldi/projek_praktikum/blob/master/README.md#pertemuan-ke-6---lab-2)|
 
 ### Pertemuan ke 6 - Lab 1
+Pada pertemuan kali ini saya di beri tugas oleh Dosen yaitu mempelajari Operator Aritmatika menggunakan bahasa python. Berikut adalah source code yang diberikan dosen kepada saya [source code lab 1](https://)
 
+![gambar 01](https://github.com/RezaRiyaldi/projek_praktikum/blob/master/gambar/gambar%201.PNG?raw=true)
 ### Pertemuan ke 6 - Lab 2
