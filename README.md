@@ -1,4 +1,6 @@
 # Tugas pertemuan ke 6
+## Operator pada python
+***
 ## Profil
 __Nama : Reza Riyaldi Irawan__
 
