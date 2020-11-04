@@ -136,7 +136,7 @@ Berikut adalah source code yang diberikan dosen kepada saya [Source code lab 1 b
 
 Penjelasan
 
-* Pada # String format 1 terdapat 2 outputan tanpa string format yang dimana yang sebelah kiri menampilkan 0 sampai 10 dan yang sebelah kanan menampilkan operator aritmatika bilangan berpangkat ( ** ) dari 10 pangkat 0 sampai 10 pangkat 10
+* Pada # String format 1 terdapat 2 outputan tanpa string format yang hanya akan memberikan jarak `1 space` yang dimana yang sebelah kiri menampilkan 0 sampai 10 dan yang sebelah kanan menampilkan operator aritmatika bilangan berpangkat ( ** ) dari 10 pangkat 0 sampai 10 pangkat 10
 
 Maka hasilnya akan sebagai berikut
 
@@ -155,3 +155,23 @@ Maka hasilnya akan sebagai berikut
 
 
 ### Pertemuan ke 6 - Lab 2
+Pada lab/latihan 2 ini saya akan menjelaskan tentang Konversi variable. Tugas yang di berikan dosen bisa di akses di [source code lab 2](https://github.com/RezaRiyaldi/projek_praktikum/blob/master/tugas6-lab2.py)
+
+```python
+# sebelum di konversi nilainya adalah string
+a = input("Masukkan Nilai a = ")
+b = input("Masukkan Nilai b = ")
+print("Variable a = ", a)
+print("Variable b = ", b)
+print("Hasil penggabungan {0} & {1} = %s".format(a,b) % (a+b))
+
+# Konversi nilai variable ke dalam integer
+a = int(a)
+b = int(b)
+print("Hasil penjumlahan {0} + {1} = %d".format(a,b) % (a+b))
+print("Hasil pembagian {0} / {1} = %d".format(a,b) % (a/b))
+```
+
+Maka hasilnya akan sebagai berikut
+
+![output 6](https://github.com/RezaRiyaldi/projek_praktikum/blob/master/gambar/gambar%209.PNG)
